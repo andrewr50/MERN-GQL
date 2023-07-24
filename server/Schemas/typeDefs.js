@@ -15,7 +15,7 @@ const typeDefs = gql`
       description: String
       image: String
       link: String
-    ): Book
+    ): User
 
     removeBook(bookId: ID!): User
 
